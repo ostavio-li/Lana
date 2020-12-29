@@ -1,0 +1,23 @@
+::-webkit-scrollbar {display:none}
+
+
+.hider {
+	transform: translateX(150%);
+	transition: all 1.0s;
+}
+
+.in {
+	transform: translateX(0);
+}
+
+.animated {
+    animation-duration: 1.5s !important;
+    -webkit-animation-duration: 1.5s !important;
+    animation-fill-mode: both !important;
+    -webkit-animation-fill-mode: both !important;
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+    -webkit-animation: fadeInRight;
+}
